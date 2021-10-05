@@ -1,0 +1,12 @@
+test/getcat/        TestController      @Get_Request     @Desc   Getting All Categories
+test/getcat/{id}    TestController      @Get_Request     @Desc   Getting Category By Id
+test/insertCat      TestController      @POST_Request    @Desc   Insert Category
+test/updateCat      TestController      @POST_Request    @Desc   Update Category
+test/deleteCat      TestController      @POST_Request    @Desc   Delete Category
+
+
+login/              LoginController     @POST_Request    @Desc   Login Account
+
+logout              LogoutController    @Get_Request     @Desc   Logout Account
+
+
